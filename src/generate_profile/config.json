@@ -1,0 +1,8 @@
+{
+    "weatherdatapath":"C:\\Users\\KDUWADI\\Box\\BRPL Demand Side Management\\Data\\nrel_data\\weatherdata16_20.csv",
+    "datedatapath":"C:\\Users\\KDUWADI\\Box\\BRPL Demand Side Management\\Data\\nrel_data\\datedata16_20.csv",
+    "dtprofilepath":"C:\\Users\\KDUWADI\\Box\\BRPL Demand Side Management\\Data\\brpl_data\\brpl_transformerdata.csv",
+    "start_date": "2018-4-1 0:0:0",
+    "end_date": "2019-3-31 23:30:0",
+    "export_folder": "C:\\Users\\KDUWADI\\Desktop\\NREL_Projects\\BRPL-USAID\\LinearModel\\export_folder"
+}

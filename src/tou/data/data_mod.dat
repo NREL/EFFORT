@@ -1,0 +1,11 @@
+
+param baseprice := 3800;
+
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/time.csv" format= set: time;
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/tier.csv" format= set: tier;
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/load.csv": [time] Load;
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/netload.csv": [time] netLoad;
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/tier_time_on_peak.csv": [time] tier_time_on_peak;
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/tier_time_off_peak.csv": [time] tier_time_off_peak;
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/pem.csv": [row,col] pem;
+load "c:/Users/KDUWADI/Desktop/NREL_Projects/BRPL-USAID/LinearModel/BRPL-NREL-II/src/tou\data/energyprice.csv": [time] energy_price;

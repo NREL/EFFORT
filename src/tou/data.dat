@@ -1,0 +1,10 @@
+
+param baseprice := 8;
+
+load "DIRECTORY/time.csv" format= set: time;
+load "DIRECTORY/tier.csv" format= set: tier;
+load "DIRECTORY/load.csv": [time] Load;
+load "DIRECTORY/netload.csv": [time] netLoad;
+load "DIRECTORY/tier_time_on_peak.csv": [time] tier_time_on_peak;
+load "DIRECTORY/tier_time_off_peak.csv": [time] tier_time_off_peak;
+load "DIRECTORY/pem.csv": [row,col] pem;
